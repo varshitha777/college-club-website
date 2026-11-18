@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GDG on Campus at Rajeev Institute of Technology, Hassan — learn, build and connect.">
+  <meta name="theme-color" content="#0b1020">
+  <title>GDG on Campus | RIT Hassan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="GDG on Campus home">
+        <img src="GDG LOGO.jpeg" alt="GDG logo" class="brand-logo">
+        <span>GDG <small>ON CAMPUS · RIT HASSAN</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#events">Events</a><a href="#projects">Projects</a>
+        <a href="#team">Team</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Switch color theme" title="Switch theme">☾</button>
+        <a class="button button-small" href="#join">Join the community ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="institution-bar" aria-label="Institution logos">
+      <div class="container institution-logos">
+        <div class="institution-item"><img src="RIT.jpeg" alt="Rajeev Institute of Technolog"><span>Rajeev Institute of Technology</span></div>
+        <div class="institution-item"><img src="CSE LOGO.jpeg" alt="Computer Science and Engineering department logo"><span>Department of CSE</span></div>
+        <div class="institution-item"><img src="COMPUS.jpeg" alt="Google Developer Groups logo"><span>GDG on Campus</span></div>
+      </div>
+    </section>
+
+    <section class="hero section-pad" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="pulse"></span> STUDENT DEVELOPER COMMUNITY</div>
+          <h1>Ideas today.<br><span>Impact tomorrow.</span></h1>
+          <p class="hero-lead">A community of curious minds at RIT Hassan, learning new technologies, building real projects and growing together.</p>
+          <div class="hero-actions">
+            <a class="button" href="#join">Become a member <span>↗</span></a>
+            <a class="text-link" href="#about">Discover our community <span>→</span></a>
+          </div>
+          <div class="hero-proof">
+            <div><strong>LEARN</strong><small>New skills</small></div>
+            <div><strong>BUILD</strong><small>Real projects</small></div>
+            <div><strong>CONNECT</strong><small>Great people</small></div>
+          </div>
+        </div>
+        <div class="hero-art reveal" aria-label="Decorative code illustration">
+          <div class="glow glow-a"></div><div class="glow glow-b"></div>
+          <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+          <div class="terminal">
+            <div class="terminal-top"><i></i><i></i><i></i><span>community.js</span></div>
+            <div class="terminal-code">
+              <p><b>const</b> community = {</p>
+              <p>&nbsp; learn: <em>true</em>,</p><p>&nbsp; create: <em>true</em>,</p>
+              <p>&nbsp; collaborate: <em>true</em></p><p>};</p>
+              <p class="terminal-result">✓ Building something meaningful...</p>
+            </div>
+          </div>
+          <div class="float-chip chip-one">✦ &nbsp; CREATE</div><div class="float-chip chip-two">⌘ &nbsp; CODE</div>
+          <div class="float-chip chip-three">↗ &nbsp; GROW</div>
+        </div>
+      </div>
+      <div class="container hero-bottom"><span>BUILT FOR THE CURIOUS</span><span class="line"></span><span>RAJEEV INSTITUTE OF TECHNOLOGY · HASSAN</span></div>
+    </section>
+
+    <section class="intro section-pad" id="about">
+      <div class="container two-col">
+        <div class="section-heading reveal"><span class="kicker">01 / ABOUT THE CLUB</span><h2>Technology is better <span>together.</span></h2></div>
+        <div class="intro-copy reveal">
+          <p>GDG on Campus – RIT Hassan is a student-focused technology community. This website helps students discover learning opportunities, share ideas and celebrate student innovation.</p>
+          <p class="muted">Our goal is simple: make technology approachable, encourage collaboration and help students turn curiosity into practical skills.</p>
+        </div>
+      </div>
+      <div class="container value-grid">
+        <article class="value-card reveal"><span class="value-icon">◎</span><h3>Learn by doing</h3><p>Explore tools and concepts through practical activities.</p></article>
+        <article class="value-card reveal"><span class="value-icon">⌘</span><h3>Create together</h3><p>Work with peers, exchange feedback and build projects.</p></article>
+        <article class="value-card reveal"><span class="value-icon">↗</span><h3>Grow your network</h3><p>Meet curious people and share your learning journey.</p></article>
+      </div>
+    </section>
+
+    <section class="events section-pad" id="events">
+      <div class="container">
+        <div class="section-top reveal">
+          <div class="section-heading"><span class="kicker">02 / WHAT'S ON</span><h2>Moments that <span>move us.</span></h2></div>
+          <p class="muted">Explore events and activities. Update dates and descriptions with confirmed club information.</p>
+        </div>
+        <div class="event-tabs reveal" role="group" aria-label="Filter events">
+          <button class="tab active" data-filter="upcoming" aria-pressed="true">Upcoming</button>
+          <button class="tab" data-filter="past" aria-pressed="false">Past highlights</button>
+          <button class="tab" data-filter="all" aria-pressed="false">All events</button>
+        </div>
+        <div class="event-grid">
+          <article class="event-card reveal" data-type="upcoming"><div class="event-visual visual-blue"><span>01</span><b>BUILD<br>WEEK</b><small>HANDS-ON SESSION</small></div><div class="event-content"><div class="event-meta">UPCOMING · WORKSHOP</div><h3>Build Week: Web Essentials</h3><p>A beginner-friendly session to explore how modern websites are made.</p><div class="event-foot">Date to be announced <span>↗</span></div></div></article>
+          <article class="event-card reveal" data-type="upcoming"><div class="event-visual visual-purple"><span>02</span><b>IDEA<br>SPRINT</b><small>TEAM CHALLENGE</small></div><div class="event-content"><div class="event-meta">UPCOMING · CHALLENGE</div><h3>Campus Idea Sprint</h3><p>Collaborate in teams and turn a campus problem into a prototype.</p><div class="event-foot">Date to be announced <span>↗</span></div></div></article>
+          <article class="event-card reveal" data-type="past"><div class="event-visual visual-orange"><span>03</span><b>TECH<br>CONNECT</b><small>COMMUNITY MEETUP</small></div><div class="event-content"><div class="event-meta">PAST HIGHLIGHT · SAMPLE</div><h3>Tech Community Meetup</h3><p>A sample highlight card. Replace it with a verified past event.</p><div class="event-foot">Add actual event date <span>↗</span></div></div></article>
+        </div>
+        <p class="empty-state" id="eventEmpty" hidden>No events match this filter.</p>
+      </div>
+    </section>
+
+    <section class="projects section-pad" id="projects">
+      <div class="container">
+        <div class="section-top reveal"><div class="section-heading"><span class="kicker">03 / MADE BY STUDENTS</span><h2>Small ideas.<br><span>Big possibilities.</span></h2></div><p class="muted">A showcase for student work. Add real project details and verified achievements.</p></div>
+        <div class="project-grid">
+          <article class="project-card project-feature reveal"><div class="project-art art-one"><span>01</span><div class="abstract-window"><i></i><i></i><i></i><b>&lt;/&gt;</b></div></div><div class="project-info"><span class="kicker">WEB DEVELOPMENT</span><h3>CampusConnect</h3><p>A concept platform to bring student communities, events and ideas into one place.</p><a href="#join" class="text-link">Build with us →</a></div></article>
+          <article class="project-card reveal"><div class="project-art art-two"><span>02</span><div class="orb">AI</div></div><div class="project-info"><span class="kicker">AI & INNOVATION</span><h3>Smart Ideas Lab</h3><p>A sample showcase for experiments in data, automation and AI.</p><a href="#join" class="text-link">Explore community →</a></div></article>
+        </div>
+        <div class="achievement-strip reveal"><div><span class="kicker">OUR MINDSET</span><h3>Progress is an achievement.</h3></div><p>Share hackathon participation, project milestones, certifications and awards here once verified.</p><span class="achievement-star">✳</span></div>
+      </div>
+    </section>
+
+    <section class="team section-pad" id="team">
+      <div class="container">
+        <div class="section-top reveal"><div class="section-heading"><span class="kicker">04 / THE PEOPLE</span><h2>Made possible by <span>community.</span></h2></div><p class="muted">Replace sample roles with official organizers' names and approved photos.</p></div>
+        <div class="team-grid">
+          <article class="person-card reveal"><div class="avatar avatar-a">G</div><h3>Community Lead</h3><p>Leadership & coordination</p></article>
+          <article class="person-card reveal"><div class="avatar avatar-b">D</div><h3>Developer Lead</h3><p>Technology & projects</p></article>
+          <article class="person-card reveal"><div class="avatar avatar-c">E</div><h3>Events Team</h3><p>Workshops & experiences</p></article>
+          <article class="person-card reveal"><div class="avatar avatar-d">C</div><h3>Design Team</h3><p>Visuals & storytelling</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section-pad" id="gallery">
+      <div class="container">
+        <div class="section-top reveal"><div class="section-heading"><span class="kicker">05 / THE HIGHLIGHTS</span><h2>Life inside <span>the club.</span></h2></div><p class="muted">Replace these graphic placeholders with photographs from actual workshops and club activities.</p></div>
+        <div class="gallery-grid reveal">
+          <div class="gallery-tile gallery-large"><span>01</span><b>LEARN<br>TOGETHER</b><small>WORKSHOPS</small></div>
+          <div class="gallery-tile gallery-tall"><span>02</span><b>MAKE<br>THINGS</b><small>PROJECTS</small></div>
+          <div class="gallery-tile gallery-wide"><span>03</span><b>SHARE<br>IDEAS</b><small>COMMUNITY</small></div>
+          <div class="gallery-tile"><span>04</span><b>LEVEL<br>UP</b><small>HACKATHONS</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="join section-pad" id="join">
+      <div class="container join-box reveal">
+        <div><span class="kicker">YOUR NEXT CHAPTER</span><h2>Curiosity looks<br>good <span>on you.</span></h2><p>Want to learn, build and meet fellow tech enthusiasts? Reach out to the club team.</p></div>
+        <a class="button button-light" href="#contact">Get in touch ↗</a>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="container contact-grid">
+  
+          <div class="section-heading reveal">
+              <span class="kicker">06 / SAY HELLO</span>
+              <h2>Let's make<br><span>something matter.</span></h2>
+              <p class="muted">Connect with the GDG on Campus community at RIT Hassan.</p>
+          </div>
+  
+          <div class="contact-panel reveal">
+  
+              <div class="contact-row">
+                  <span>LOCATION</span>
+                  <a href="https://www.google.com/maps/search/?api=1&query=Rajeev+Institute+of+Technology+Hassan"
+                     target="_blank">
+                     Rajeev Institute of Technology, Hassan
+                  </a>
+              </div>
+  
+              <div class="contact-row">
+                  <span>EMAIL</span>
+                  <a href="mailto:yourclubemail@gmail.com">
+                      yourclubemail@gmail.com
+                  </a>
+              </div>
+  
+              <div class="contact-row">
+                  <span>SOCIAL MEDIA</span>
+                  <a href="https://www.instagram.com/gdg_club_rit?jplx=MThzMTN4OHFsbDgwMw== target="_blank">
+                      Instagram ↗️
+                  </a>
+                  <a href="https://www.linkedin.com/" target="_blank">
+                      LinkedIn ↗️
+                  </a>
+                  <a href="https://www.youtube.com/" target="_blank">
+                      YouTube ↗️
+                  </a>
+              </div>
+  
+              <a class="text-link" href="#home">Back to top ↑</a>
+  
+          </div>
+      </div>
+  </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-main">
+      <a class="brand" href="#home"><img src="images/gdg-logo.svg" alt="" class="brand-logo"><span>GDG <small>ON CAMPUS · RIT HASSAN</small></span></a>
+      <p>Learn together. Build together. Grow together.</p>
+      <div class="footer-links"><a href="#about">About</a><a href="#events">Events</a><a href="#team">Team</a><a href="#contact">Contact</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> GDG on Campus – RIT Hassan</span><span>Made with curiosity & code.</span></div>
+  </footer>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
